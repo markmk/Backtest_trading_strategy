@@ -243,5 +243,3 @@ print(performance_df)
 # concatenate all trades
 if all_trades:
     all_trades_df = pd.concat(all_trades, ignore_index=True)
-    # Save to CSV or analyze further
-    # all_trades_df.to_csv("all_trades.csv", index=False)
